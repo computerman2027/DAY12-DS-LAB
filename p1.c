@@ -59,9 +59,17 @@ void delete(int val)
 	return;
 }
 
-void heapsort()
+void heapsort(int[] arr, int len)
 {
-	
+	int i;
+	for(i=0;i<len;i++)
+	{
+		insert(arr[i]);
+	}
+	while(N>0)
+	{
+		delete(arr[0])
+	}
 }
 
 
