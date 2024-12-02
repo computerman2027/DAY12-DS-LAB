@@ -58,7 +58,12 @@ int main()
 
     printf("Max-Heap built from the array: \n");
     printArray(arr, n);
-
+	
+	int i;
+	for(i=n-1;i>=0;i--)
+	{
+		
+	}
     return 0;
 }
 
